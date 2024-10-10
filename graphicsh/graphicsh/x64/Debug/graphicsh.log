@@ -1,88 +1,124 @@
 ﻿  main.cpp
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(12,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(13,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(14,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(15,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(16,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(17,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,56): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,56): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,56): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,56): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,56): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,52): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,52): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,52): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,52): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,52): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,90): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,90): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,90): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,90): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,90): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,86): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,86): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,86): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,86): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,86): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,56): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,56): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,56): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,56): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,56): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,52): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,52): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,52): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,52): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,52): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,90): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,90): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,90): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,90): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,90): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,86): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,86): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,86): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,86): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,86): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,56): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,56): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,56): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,56): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,56): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,52): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,52): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,52): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,52): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,52): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,90): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,90): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,90): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,90): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,90): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,86): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,86): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,86): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,86): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(22,86): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,56): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,56): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,56): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,56): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,56): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,52): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,52): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,52): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,52): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,52): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,90): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,90): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,90): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,90): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,90): warning C4244:         ]
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,86): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,86): warning C4244:         with
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,86): warning C4244:         [
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,86): warning C4244:             T=float
-C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(23,86): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(20,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(21,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,52): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,52): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,52): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,52): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,52): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,48): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,48): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,48): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,48): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,48): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,86): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,86): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,86): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,86): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,86): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,82): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,82): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,82): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,82): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(26,82): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,52): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,52): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,52): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,52): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,52): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,48): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,48): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,48): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,48): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,48): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,86): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,86): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,86): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,86): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,86): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,82): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,82): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,82): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,82): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(27,82): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,52): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,52): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,52): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,52): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,52): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,48): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,48): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,48): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,48): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,48): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,86): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,86): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,86): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,86): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,86): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,82): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,82): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,82): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,82): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(28,82): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,52): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,52): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,52): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,52): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,52): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,48): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,48): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,48): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,48): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,48): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,86): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,86): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,86): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,86): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,86): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,82): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,82): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,82): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,82): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(29,82): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,52): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,52): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,52): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,52): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,52): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,48): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,48): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,48): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,48): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,48): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,86): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,86): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,86): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,86): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,86): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,82): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,82): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,82): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,82): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(30,82): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,52): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,52): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,52): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,52): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,52): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,48): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,48): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,48): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,48): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,48): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,86): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,86): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,86): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,86): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,86): warning C4244:         ]
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,82): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,82): warning C4244:         with
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,82): warning C4244:         [
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,82): warning C4244:             T=float
+C:\Users\Sergey\source\repos\graphicsh\graphicsh\main.cpp(31,82): warning C4244:         ]
   graphicsh.vcxproj -> C:\Users\Sergey\source\repos\graphicsh\x64\Debug\graphicsh.exe

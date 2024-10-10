@@ -1,45 +1,52 @@
 #include <SFML/Graphics.hpp>
 #include <cmath>
+#include <iostream>
+using namespace sf;
+using namespace std;
 
-// Константа для перевода градусов в радианы
+
 const double PI = 3.14159265358979323846;
 
-// Функция для рисования фрактала Пифагора
-void pifagor(sf::RenderWindow& window, int n, int x0, int y0, double a, double fi, double alpha) {
+void pifagor(sf::RenderWindow& window, int n, double x0, double y0, double a, double fi, double alpha) {
     if (n == 0) return;
 
-    // Вычисляем координаты вершин квадрата
-    int x1 = x0 + a * cos(fi);
-    int y1 = y0 - a * sin(fi);
-    int x2 = x1 + a * cos(fi + PI / 2);
-    int y2 = y1 - a * sin(fi + PI / 2);
-    int x3 = x0 + a * cos(fi + PI / 2);
-    int y3 = y0 - a * sin(fi + PI / 2);
 
-    // Рисуем квадрат (домик)
-    sf::Vertex line1[] = { sf::Vertex(sf::Vector2f(x0, y0)), sf::Vertex(sf::Vector2f(x1, y1)) };
-    sf::Vertex line2[] = { sf::Vertex(sf::Vector2f(x1, y1)), sf::Vertex(sf::Vector2f(x2, y2)) };
-    sf::Vertex line3[] = { sf::Vertex(sf::Vector2f(x2, y2)), sf::Vertex(sf::Vector2f(x3, y3)) };
-    sf::Vertex line4[] = { sf::Vertex(sf::Vector2f(x3, y3)), sf::Vertex(sf::Vector2f(x0, y0)) };
+    double x1 = x0 + a * cos(fi);
+    double y1 = y0 - a * sin(fi);
+    double x2 = x1 - a * sin(fi);
+    double y2 = y1 - a * cos(fi);
+    double x3 = x0 - a * sin(fi);
+    double y3 = y0 - a * cos(fi);
+    int b = cos(alpha) * a;
+    int c = sin(alpha) * a;
+    double x4 = x3 + b * cos(fi + alpha);
+    double y4 = y3 - b * sin(fi + alpha);
+
+
+    Vertex line1[] = { sf::Vertex(sf::Vector2f(x0, y0)), sf::Vertex(sf::Vector2f(x1, y1)) };
+    Vertex line2[] = { sf::Vertex(sf::Vector2f(x1, y1)), sf::Vertex(sf::Vector2f(x2, y2)) };
+    Vertex line3[] = { sf::Vertex(sf::Vector2f(x2, y2)), sf::Vertex(sf::Vector2f(x3, y3)) };
+    Vertex line4[] = { sf::Vertex(sf::Vector2f(x3, y3)), sf::Vertex(sf::Vector2f(x0, y0)) };
+    Vertex line5[] = { sf::Vertex(sf::Vector2f(x3, y3)), sf::Vertex(sf::Vector2f(x4, y4)) };
+    Vertex line6[] = { sf::Vertex(sf::Vector2f(x2, y2)), sf::Vertex(sf::Vector2f(x4, y4)) };
+
+
 
     window.draw(line1, 2, sf::Lines);
     window.draw(line2, 2, sf::Lines);
     window.draw(line3, 2, sf::Lines);
     window.draw(line4, 2, sf::Lines);
+    window.draw(line5, 2, sf::Lines);
+    window.draw(line6, 2, sf::Lines);
 
-    // Вычисляем новые параметры для рекурсивного вызова
-    double a_new = a * cos(alpha); // Новый размер домика
-    double fi_left = fi + alpha;   // Угол для левого домика
-    double fi_right = fi - alpha;  // Угол для правого домика
 
-    // Рекурсивно рисуем домики на крышах
-    pifagor(window, n - 1, x2, y2, a_new, fi_left, alpha);
-    pifagor(window, n - 1, x3, y3, a_new, fi_right, alpha);
-}
+    n--;
+    pifagor(window, n, x3, y3, b, fi + alpha, alpha);
+    pifagor(window, n, x4, y4, c, fi + alpha - PI / 2, alpha);
+    }
 
 int main() {
-    // Создаем окно
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Pifagor Tree");
+    RenderWindow window(sf::VideoMode(800, 600), "Pifagor Tree");
 
     while (window.isOpen()) {
         sf::Event event;
@@ -50,8 +57,7 @@ int main() {
 
         window.clear();
 
-        // Рисуем фрактал Пифагора
-        pifagor(window, 10, 400, 500, 100, 0, PI / 4);  // Глубина, координаты, размер, угол, угол крыши
+        pifagor(window, 15, 450, 400, 100, 0, PI / 4);  // Глубина, координаты, размер, угол, угол крыши
 
         window.display();
     }
